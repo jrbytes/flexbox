@@ -1,0 +1,23 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+ 
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box {
+  width: 100px;
+  height: 60px;
+  background: #f00;
+  margin: 5px;
+  flex-grow: 1;
+  /* flex: 1; Faz o mesmo, e o shrink mantém o tamanho e cria barra de rolagem */
+}
